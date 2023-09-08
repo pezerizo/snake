@@ -9,10 +9,10 @@
 #include <pthread.h>
 
 
-#include "headers/snake.hpp"
-#include "headers/map.hpp"
-#include "headers/apple.hpp"
-#include "headers/frame.hpp"
+#include "includesnake.hpp"
+#include "include/map.hpp"
+#include "include/apple.hpp"
+#include "include/frame.hpp"
 
 #define MINX 0
 #define MINY 0
@@ -32,8 +32,8 @@ static int is_lose = 1;
 static bool __key__[256];
 static bool up;
 
-#include "headers/logic.hpp"
-#include "headers/moving.hpp"
+#include "include/logic.hpp"
+#include "include/moving.hpp"
 
 int main(int argc, char** argv) {
 	
